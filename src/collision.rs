@@ -14,11 +14,13 @@ pub struct Rect {
 
 impl Rect {
     pub fn top_left(&self) -> Point {
-        Point { x: self.x1, y: self.y1 }
+        Point {
+            x: self.x1,
+            y: self.y1,
+        }
     }
 }
 
 pub fn point_in_rect(point: Point, rect: Rect) -> bool {
     point.x >= rect.x1 && point.x <= rect.x2 && point.y >= rect.y1 && point.y <= rect.y2
 }
-

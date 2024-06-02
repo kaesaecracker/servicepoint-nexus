@@ -86,8 +86,7 @@ dependencies = [
 [[package]]
 name = "servicepoint"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9c3f63fe45d7ce29066441419ed98d110b3b68f2022dbeabc3f43e757fe4138a"
+source = "git+https://github.com/cccb/servicepoint?branch=additional-grid-features#17d41ef6c66e9ca7bedd38bb72446a811931aeaf"
 dependencies = [
  "log",
  "rust-lzma",
