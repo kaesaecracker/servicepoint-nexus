@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-servicepoint = {git = "https://github.com/cccb/servicepoint", branch = "additional-grid-features"}
+servicepoint = "0.6.0"
 rand = "0.8.5"
